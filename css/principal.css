@@ -1,0 +1,247 @@
+#app {
+    padding: 1rem 0rem;
+    background-color: var(--color-backgorundMain);    
+}
+
+/* NAVEGAÇÃO*/
+
+nav{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 4rem;
+    padding: 2rem 0;
+}
+nav>img, .LogoRodape {
+    width: 13rem;
+
+}
+
+.navLista {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    border: solid 1px black;
+    border-radius: 5rem;
+    box-shadow: 0 2px 3px gray;
+}
+
+.navLista>a {
+    color: black;
+    font-weight: 700;
+    font-size: 1.7rem;    
+}
+
+.botao_prox_even {
+    padding: 1rem;
+    background: var(--color-primaria);
+    color: white;
+    border-radius: 4px;
+
+    font-weight: 600;
+    transition: all 200ms ease-in ;
+}
+
+.botao_prox_even:hover{
+    background-color: #323a42 ;
+    box-shadow: 0 2px 3px gray;
+}
+
+/* FIM NAVEGAÇÃO-------------------------------------------------------------------*/
+
+
+
+/* BANNER*/
+.banner{  
+    background: url('../assets/imagemBanner.jpg') center/cover ;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tagNoticias{
+    background-color: #323a42 ;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    width: 9rem;
+}
+
+.banner_infos{
+    width: 90vw;    
+    text-align:justify;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.banner_infos>p{
+    color: white; 
+}
+
+/* FIM BANNER-----------------------------------------------------------------*/
+
+/* FAIXA*/
+
+.faixa{  
+    margin-bottom: 2rem;
+    background-color: #323a42 ;
+    display:flex;
+    background: var( --color-primaria);
+}
+
+.faixa>img{ 
+    width: 100px;  /* Define a largura da imagem */
+    height: auto; 
+    object-fit: cover; 
+}
+/*FIM FAIXA---------------------------------------------------------------------*/
+
+
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 90vw;
+    height: 30vh;
+    padding: 2rem;
+     
+    background-color: #323a42;
+    border-radius: 10PX;
+}
+
+
+/* QUEM SOMOS */
+
+.quemSomos_main{
+    padding: 2rem; 
+      
+}
+
+.QuemSomos{
+   color: #b9b9b9;
+}
+h1{
+    color: var( --color-titulo);
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.quemSomos_texto{
+    color: var(--color-texto);
+}
+
+h2{
+    color: var( --color-titulo);
+    font-weight: 700; 
+
+    margin-top:2rem ;
+}
+/* FIM QUEM SOMOS----------------------------------------------- */
+
+
+
+
+/* APOIO */
+.apoio{
+   background-color: var( --color-backgorund);
+   padding: 2rem;
+   text-align: center;
+}
+
+h3{
+    color: var( --color-titulo);
+    font-weight: 900; 
+}
+
+.apoio_texto{
+    color: var( --color-titulo);
+    font-weight: 500; 
+    margin-bottom: 40px;
+}
+
+.apoio_infos_01{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.numero{
+    display: none;
+}
+
+h4, .apoio_valores{
+    color: var( --color-titulo);
+}
+.apoio_valores{
+    margin-bottom: 2rem;
+   
+}
+/* FIM APOIO ---------------------------------------------------------------*/
+
+
+/* REGIÕES ATENDIDAS */
+.regiaoAtendida{
+ padding: 1rem;
+ text-align: center;
+}
+
+h5{
+    font-size: 3rem;
+    color: var( --color-titulo);
+}
+
+.regiao2{
+    padding-bottom: 2rem;
+}
+
+.regiao3{     
+    border: solid 1px var(--color-texto);
+    padding: 3rem 0;
+    border-radius: 8px;
+
+    margin-bottom: 2rem;
+}
+
+
+.bt_regiao{
+   margin-bottom: 2rem;
+   display: flex;
+   justify-content: center;
+   gap:10px;  
+}
+
+
+.botao_regiao{
+    padding: 1rem;
+    background: var( --color-bnt);
+    border-radius: 8px;
+    color: var(--color-titulo);
+    font-weight: 600;
+}
+
+.mapaAmapa{
+    width: 200px;  /* Define a largura da imagem */
+    height: auto; 
+}
+
+
+
+footer{
+    background-color: var(--color-primaria);
+    height: 30rem;
+}
+
+.divFooter{
+    color: white;
+    
+}
+

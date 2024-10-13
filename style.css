@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --wekit-font-smoothing: antialiased;
+    --moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+:root {
+    font-size: 62.5%;
+
+    /* cores */
+    --color-primaria: #414d59;  
+    --color-backgorundMain: #ffff;  
+    --color-backgorund:#e3e3e3;
+
+    --color-titulo:#414d59;
+    --color-texto: #565656;
+
+    --color-bnt: #f1f2f3;
+    --color-bntApertado:#b9b9b9;
+}
+
+html,
+body,
+input {
+    font-family: "Afacad Flux", sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: var(--color-base-white);
+}
+
+
+h1,
+h2,
+h3 {
+    font-size: 2.4rem;
+    color: var(--cor-titulos);
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 1.6rem;
+    color: var(--color-texto);
+}
